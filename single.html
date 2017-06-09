@@ -253,7 +253,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</select>
 							</ul>
 							<button type="submit" name="Submit" class="exclusive" 
-							onclick="document.location=cart.html" href="#">
+							onclick="navigate()">
+							<script type="text/javascript">
+								function navigate() {
+									window.location.href = 'cart.html';
+								}
+							</script>
 							   <span>Add to cart</span>
 							</button>
 				   </div>
